@@ -2,11 +2,7 @@
 - salin token yang didapat untuk login
 - gunakan token pada Header saat mengirimkan data, format: `Bearer token`
 
-2. Buatlah sebuah API untuk mengelola data mahasiswa dengan fungsi
-- user dapat melihat data
-- user dapat menambahkan data
-- user dapat mengubah data
-- user dapat menghapus data
+2. Buatlah sebuah API untuk mengelola  upload data
 
 Tools yang dibutuhkan
 - NodeJS
@@ -19,13 +15,4 @@ Untuk menjalankan project, ketik `npm run dev`
 
 - express => mengatur membuat logic di server
 - mongoose => mengelola urusan ke database mongodb
-Silahkan download dan install 
-- MongoDB versi local dengan URL `localhost:27017`, atau
-- MongoDB Atlas (database online dari MongoDB), dengan catatan harus membuat akun terlebih dahulu
-
-Struktur Folder
-- db => connection => untuk konfigurasi agar aplikasi dapat terhubung ke database mongodb
-- models => untuk membuat Schema data
-- routes => untuk membuat Routes agar data dapat meng-handle URL yang dapat diakses
-
-Selanjutnya silahkan cek instruksi pada komentar masing-masing file
+- multer => mengelola upload file 
